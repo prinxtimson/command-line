@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/prinxtimson/day-0-assessment#readme",
    "dependencies": {
-    "chai": "^3.5.0",
+    "jasmine": "^2.5.3",
     "mocha": "^3.2.0"
   }
 }
