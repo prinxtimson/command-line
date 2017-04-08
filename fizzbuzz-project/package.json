@@ -6,6 +6,10 @@
   "scripts": {
     "test": "mocha test.js"
   },
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prinxtimson/day-0-assessment.git"
+  },
   "author": "Timson Babajide",
   "license": "ISC",
   "dependencies": {
