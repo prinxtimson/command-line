@@ -1,0 +1,15 @@
+{
+  "name": "fizzbuzz",
+  "version": "1.0.0",
+  "description": "a simple function that takes in an arguement and and print out fizz, buzz or fizzbuzz depending on the arguement",
+  "main": "app/fizzBuzz.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "author": "Timson Babajide",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
