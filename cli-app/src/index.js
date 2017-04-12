@@ -11,7 +11,8 @@ const axios = require('axios');
 
 axios.get('https://api.github.com/search/users?q=location:lagos').then(function(response){
 	var item = response.data.items;
+  console.log('Showing list of Github users in lagos.');
   for(var u=0; u<item.length; u++){
     console.log(chalk.yellow('Username: ')+chalk.green(item[u].login));
 }
-});
+})
